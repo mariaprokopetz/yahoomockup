@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #722B88;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#tfheader{
+		background-color:#722B88;
+	}
+	#tfnewsearch{
+		float:left;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: 'Roboto', sans-serif;
+		font-size:14px;
+		border:none;
+    border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+    background-color: #722B88;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		border: none;
+    border-right:0px;
+		background: #722B88;
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #722B88;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+  .yahoo-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+
+.yahoo-list li {
+  padding: 0.5em 0 0.5em 1em;
+  list-style-type: none;
+}
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .news-box {
+    background-color: #838383;
+    height: auto;
+    width: 60%;
+    float: left;
+  }
+
+  #news-box-header {
+    background-color: #838383;
+  }
+
+  #news {
+    background-color: #FAFAFA;
+    color: black;
+  }
+
+  #purple-headers {
+    color: #722B88;
+  }
+
+  #news-footer {
+    background-color: #E3E2E1;
+  }
+
+  .inbox {
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 40%;
+    float: right;
+  }
+
+  #inbox-header {
+    background-color: #FAFAFA;
+  }
+
+  #small-purple-headers {
+    color: #722B88;
+  }
+
+
+
+  a, a:visited {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
